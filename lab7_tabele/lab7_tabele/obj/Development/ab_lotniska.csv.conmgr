@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="ab_lotniska.csv"
   DTS:DTSID="{DB88644C-7723-49CC-9A79-D948C5A46336}"
