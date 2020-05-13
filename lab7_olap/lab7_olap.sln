@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "lab7_olap", "lab7_olap\lab7_olap.dwproj", "{183D7420-B257-427B-BD6B-C61264D5BC0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{183D7420-B257-427B-BD6B-C61264D5BC0D}.Development|Default.ActiveCfg = Development
+		{183D7420-B257-427B-BD6B-C61264D5BC0D}.Development|Default.Build.0 = Development
+		{183D7420-B257-427B-BD6B-C61264D5BC0D}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52C8CA04-520C-4CB3-8357-8217B2819C07}
+	EndGlobalSection
+EndGlobal

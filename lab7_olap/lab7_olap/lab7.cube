@@ -1,0 +1,460 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8dba5c09-6694-4862-bfd6-75eaf5f387ad" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>lab7</ID>
+  <Name>lab7</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="9" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-11114" scrolltop="29" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="94" x="29501" y="16722" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="lab7_wymiar_LOTNISKA" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3387" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00003b0d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_lab7_wymiar_LOTNISKA" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="lab7_fakt_OPERACJE" left="213" top="7400" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_lab7_fakt_OPERACJE" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="lab7_wymiar_STARTY" left="205" top="14219" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3016" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000c80b00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_lab7_wymiar_STARTY" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="lab7_wymiar_LADOWANIA" left="5613" top="8035" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3043" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000e30b00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_lab7_wymiar_LADOWANIA" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1314" top="4501" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_dst_airport_IATA]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1713" y="5000" />
+              <point x="1713" y="7400" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1864" top="4501" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_src_airport_IATA]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2263" y="5000" />
+              <point x="2263" y="7400" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2913" top="9210" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_landing_id]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="14" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5613" y="9609" />
+              <point x="3213" y="9609" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1314" top="11519" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_takeoff_id]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1713" y="14219" />
+              <point x="1713" y="11819" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-11114</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>29</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>94</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="c1f314ad-50fc-431d-ace1-c91543118f62">
+      <ID>Lab7 Fakt OPERACJE</ID>
+      <Name>Lab7 Fakt OPERACJE</Name>
+      <DimensionID>Lab7 Fakt OPERACJE</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8afa86b5-7774-4c25-b53f-48128de5f09c">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6fd5f767-d21b-4af8-baf9-4e24e2b9d1a7">
+          <AttributeID>Landing</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e332d404-84b5-4de0-bcc6-67f6a680be38">
+          <AttributeID>Dst Iata Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c63eac0b-c6bf-40f5-9786-3ac928a1704b">
+          <AttributeID>Src Iata Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fb86ec11-68d9-4ffe-a842-a973b504ece1">
+          <AttributeID>Takeoff</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a037bd8a-1bbf-474a-a3e8-1ab214546d27">
+          <AttributeID>International</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e5922139-032d-4f23-bd48-ae291e27ade0">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="595364dd-aa26-43a9-8bf0-3712aeb27483">
+      <ID>Lab7 Wymiar LADOWANIA</ID>
+      <Name>Lab7 Wymiar LADOWANIA</Name>
+      <DimensionID>Lab7 Wymiar LADOWANIA</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="749809f5-18dd-4be8-a83e-9f293c9021fa">
+          <AttributeID>Landing</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="17f0f180-b6a7-42a0-9349-04d5256709f6">
+          <AttributeID>Landing Hour</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1e83a538-3a72-4f25-8e92-13d5f1f7e61c">
+          <AttributeID>Landing Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="99d70b50-7bd1-46d3-b99e-77c048ef8f9c">
+          <AttributeID>Landing Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b2891d5d-5a49-4ddb-a18a-c516bfd74494">
+          <AttributeID>Landing Month</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="da02bcfa-7526-4c9f-aef6-c51190bfef5f">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="ba5dd297-855b-48f3-8595-4874c3d2d255">
+      <ID>Dst Iata</ID>
+      <Name>Dst Iata</Name>
+      <DimensionID>Lab7 Wymiar LOTNISKA</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="974ab3ff-868a-49d7-ad90-fedebc031e75">
+          <AttributeID>Airport Code Iata</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d2229f3c-feed-473e-bcd1-dae0d81e1d4a">
+          <AttributeID>Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="40561912-b559-4dac-8d23-b16f3e228b56">
+          <AttributeID>City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d91e71b2-3fa9-4412-b6a3-d4b617c7e4c3">
+          <AttributeID>Country</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="41fb02ff-6b6f-474a-88e2-34f318be422b">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="2e74af9c-7db8-4155-bc55-0a19108caa58">
+      <ID>Src Iata</ID>
+      <Name>Src Iata</Name>
+      <DimensionID>Lab7 Wymiar LOTNISKA</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="aab06956-0e8f-4666-9cbb-9ff897e2ce20">
+          <AttributeID>Airport Code Iata</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ea886f38-a84b-4cd9-872b-9779a263066f">
+          <AttributeID>Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f5b71266-8baa-40c8-b593-b065234cf8fa">
+          <AttributeID>City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="740b0eca-7d40-4a72-92f0-39ce818a8a4e">
+          <AttributeID>Country</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="cf30b37a-4ce2-4bc4-ba46-30616fd126ab">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="a912edd7-5369-4e24-8880-2ec412bf4767">
+      <ID>Lab7 Wymiar STARTY</ID>
+      <Name>Lab7 Wymiar STARTY</Name>
+      <DimensionID>Lab7 Wymiar STARTY</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ca9ed676-f467-487a-905a-936c7030c812">
+          <AttributeID>Takeoff</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d17ffa56-2541-49f3-a513-999ec085fb1b">
+          <AttributeID>Takeoff Hour</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6b25d2fb-aa21-4cc7-9598-ce22f62553a3">
+          <AttributeID>Takeoff Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="546abc50-e568-454c-9bcc-431439fc056e">
+          <AttributeID>Takeoff Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9fc3d23a-9442-4d57-a4b0-53cfd7c35f1f">
+          <AttributeID>Takeoff Month</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="290a89a7-3ce3-4af7-8ba5-a6737f0130a9">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="1794a6c3-46c2-4ea1-8465-49f02ad98f07">
+      <ID>Lab7 Fakt OPERACJE</ID>
+      <Name>Lab7 Fakt OPERACJE</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="fd38bab0-bd63-44d7-a000-c58c67bf0493">
+          <ID>Occup</ID>
+          <Name>Occup</Name>
+          <Source dwd:design-time-name="061954de-6d18-4d31-bbed-225671938b57">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3b352f32-9195-453b-8c3e-d1c720f29731">
+              <TableID>dbo_lab7_fakt_OPERACJE</TableID>
+              <ColumnID>occup</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c0a31bcc-9c18-4b72-9d8d-f4747c7ce6ba">
+          <ID>Occup Pct</ID>
+          <Name>Occup Pct</Name>
+          <Source dwd:design-time-name="42dd03b2-9258-40ac-8dbe-819bf36cc98b">
+            <DataType>Single</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f69aa0af-ffd1-48ad-b87f-7d4e0e161e50">
+              <TableID>dbo_lab7_fakt_OPERACJE</TableID>
+              <ColumnID>occup_pct</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="614ff32e-067c-4e80-ab47-87849a16692a">
+          <ID>Lab7 Fakt OPERACJE Count</ID>
+          <Name>Lab7 Fakt OPERACJE Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="4e34d3ff-5922-418e-8c46-aa09dd1dfa49">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="63310ea8-09ef-4285-8679-7a6427d68bf7">
+              <TableID>dbo_lab7_fakt_OPERACJE</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="2e32cbae-82d0-4667-9b73-eed743ef34f1">
+          <CubeDimensionID>Lab7 Fakt OPERACJE</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ffaba98a-9a08-4182-a08c-29a65dc5f864">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9f0a67af-2705-4f76-aba5-2f02af6f2056">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="adc57a50-d851-4677-8f25-5779d00d3a15">
+                    <TableID>dbo_lab7_fakt_OPERACJE</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7a5e333d-8c81-4419-a6c9-9275b8f94ba4">
+          <CubeDimensionID>Lab7 Wymiar LADOWANIA</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="70a0f19d-45a8-4f6a-9f7b-c63eb0baae5e">
+              <AttributeID>Landing</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3e6cf6bf-b4a9-4627-b5f7-aaf3a6905386">
+                  <DataType>Date</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f89ea9d9-1ae2-44dd-8a3e-ca9238873506">
+                    <TableID>dbo_lab7_fakt_OPERACJE</TableID>
+                    <ColumnID>landing</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="29505af7-77c7-4448-b4ce-5dfdb8beb54f">
+          <CubeDimensionID>Dst Iata</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b7769de9-967d-4f84-a5c3-851482fd6f31">
+              <AttributeID>Airport Code Iata</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="46628204-0695-4fe0-a2f3-6601f09dd967">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="84566a20-e1f7-4069-aade-d3fc6f229af8">
+                    <TableID>dbo_lab7_fakt_OPERACJE</TableID>
+                    <ColumnID>dst_iata_code</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="239c0ac9-e1ce-4a74-a46c-17b2093097ac">
+          <CubeDimensionID>Src Iata</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c396e8cf-8de7-46ce-97f1-cde21ca4fc32">
+              <AttributeID>Airport Code Iata</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b2ff4f9b-cc15-4ce7-8a57-74a1689be887">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c640f8cf-e8fa-4687-8cc9-116ef786db6e">
+                    <TableID>dbo_lab7_fakt_OPERACJE</TableID>
+                    <ColumnID>src_iata_code</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f3b2b4e2-5abe-4435-a981-c9728b835012">
+          <CubeDimensionID>Lab7 Wymiar STARTY</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="42ccd716-29af-4703-a419-1ea16b0e41c9">
+              <AttributeID>Takeoff</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3ea765db-9e5c-449d-9a25-465e9b5e828c">
+                  <DataType>Date</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c454999d-2bc3-469d-81d2-85ba7232c4ec">
+                    <TableID>dbo_lab7_fakt_OPERACJE</TableID>
+                    <ColumnID>takeoff</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="fd5713d6-4324-4481-a404-dc273722c49a">
+    <DataSourceViewID>Hurtownie 1</DataSourceViewID>
+  </Source>
+</Cube>

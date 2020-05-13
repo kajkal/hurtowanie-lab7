@@ -1,0 +1,220 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ba7d927f-4258-4953-87dd-657b8369ca62" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Lab7 Fakt OPERACJE</ID>
+  <Name>Lab7 Fakt OPERACJE</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3666" scrolltop="-6152" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10372" y="16722" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="lab7_fakt_OPERACJE" left="99" top="53" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_lab7_fakt_OPERACJE" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3666</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6152</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>99</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>53</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e32d9e25-33fc-4684-984c-aea67dc31d3a">
+    <DataSourceViewID>Hurtownie 1</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="5cbbd90a-f960-4c94-9631-0d8c3fefa91e">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="c83014bf-2304-45ca-be71-2e3d45a9d357">
+      <ID>Id</ID>
+      <Name>Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2fcdc235-cef4-4c8d-b412-80ad3005013d">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e613404d-2e3e-418b-8591-933efa206f8a">
+            <TableID>dbo_lab7_fakt_OPERACJE</TableID>
+            <ColumnID>id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="fcb9aaa3-b26f-4edd-91a9-ecafb72ac7d2">
+          <AttributeID>Landing</AttributeID>
+          <Name>Landing</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="65d6bac3-a949-4974-bc75-00222b098053">
+          <AttributeID>Dst Iata Code</AttributeID>
+          <Name>Dst Iata Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4bcd384d-2f68-4e05-86e8-87893592b438">
+          <AttributeID>Src Iata Code</AttributeID>
+          <Name>Src Iata Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="40965304-fbb0-4a8f-a626-507f25009c1a">
+          <AttributeID>Takeoff</AttributeID>
+          <Name>Takeoff</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bf69fa2b-7ee2-4230-ae71-9242c7d881ee">
+          <AttributeID>International</AttributeID>
+          <Name>International</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="917ccc46-9f8b-4561-bccd-cd75d4dcacaa">
+      <ID>Landing</ID>
+      <Name>Landing</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2be91b0e-f729-4e47-84db-d1af8da0c41a">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="449ef27d-1d62-4890-8a23-5b11783daf20">
+            <TableID>dbo_lab7_fakt_OPERACJE</TableID>
+            <ColumnID>landing</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="14628e1b-78e1-49ed-aef7-7685ff95ff83">
+      <ID>Dst Iata Code</ID>
+      <Name>Dst Iata Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="21003ceb-adbd-473c-bf1b-de55235c927f">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a9bd8ba4-6797-4c18-8eda-dea72e79ece4">
+            <TableID>dbo_lab7_fakt_OPERACJE</TableID>
+            <ColumnID>dst_iata_code</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3794c315-152b-4556-b71d-edf77624471f">
+      <ID>Src Iata Code</ID>
+      <Name>Src Iata Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c6645268-73ce-43c7-8b8e-61903a28d5b8">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="17c217bc-3a2c-4d46-b00d-aa35bc9effa1">
+            <TableID>dbo_lab7_fakt_OPERACJE</TableID>
+            <ColumnID>src_iata_code</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="92aae606-2eb6-47f7-b0fe-aa935f6127d9">
+      <ID>Takeoff</ID>
+      <Name>Takeoff</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d49d0bef-bf84-4e95-af44-27dbb594cbae">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e382fa6d-71c8-4b28-a630-2f002c5d5040">
+            <TableID>dbo_lab7_fakt_OPERACJE</TableID>
+            <ColumnID>takeoff</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="26d6ffae-07bb-4c57-85cf-14694b040b79">
+      <ID>International</ID>
+      <Name>International</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ba6f722c-b486-4bbd-96e8-78ec5baf34b0">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="79ef5912-b891-498a-8e5c-c892bf9ba80f">
+            <TableID>dbo_lab7_fakt_OPERACJE</TableID>
+            <ColumnID>international</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="24e6fcf6-f43c-4a26-a4ea-66625ab9237e">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchia połączenia</Name>
+      <Levels>
+        <Level dwd:design-time-name="ff0a2ccf-b01e-4001-9871-4275c0b554ba">
+          <ID>International</ID>
+          <Name>International</Name>
+          <SourceAttributeID>International</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

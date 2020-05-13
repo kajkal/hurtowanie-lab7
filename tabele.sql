@@ -23,36 +23,41 @@ CREATE TABLE [hurtownie].[dbo].[lab7_wymiar_LOTNISKA] (
 )
 
 CREATE TABLE [hurtownie].[dbo].[lab7_wymiar_STARTY] (
-    [takeoff_id] bigint IDENTITY(1,1),
-    [date] datetime,
-
-    CONSTRAINT PK_takeoff_id PRIMARY KEY CLUSTERED ([takeoff_id])
+    [takeoff] datetime,
+    [takeoff_hour] int,
+    [takeoff_day] int,
+    [takeoff_week] int,
+    [takeoff_month] int,
+    
+    CONSTRAINT PK_takeoff_id PRIMARY KEY CLUSTERED ([takeoff])
 )
 
 CREATE TABLE [hurtownie].[dbo].[lab7_wymiar_LADOWANIA] (
-    [landing_id] bigint IDENTITY(1,1),
-    [date] datetime,
-
-    CONSTRAINT PK_landing_id PRIMARY KEY CLUSTERED ([landing_id])
+    [landing] datetime,
+    [landing_hour] int,
+    [landing_day] int,
+    [landing_week] int,
+    [landing_month] int,
+    
+    CONSTRAINT PK_landing_id PRIMARY KEY CLUSTERED ([landing])
 )
 
 CREATE TABLE [hurtownie].[dbo].[lab7_fakt_OPERACJE] (
     [id] bigint,
-    [takeoff_id] bigint,
-    [landing_id] bigint,
     [takeoff] datetime,
     [landing] datetime,
     [src_iata_code] varchar(50),
     [dst_iata_code] varchar(50),
     [occup] smallint,
     [occup_pct] real,
+    [international] bit,
 
     CONSTRAINT PK_operation_id PRIMARY KEY CLUSTERED ([id]),
 
-    CONSTRAINT FK_takeoff_id FOREIGN KEY ([takeoff_id])
-    REFERENCES [hurtownie].[dbo].[lab7_wymiar_STARTY] ([takeoff_id]),
-    CONSTRAINT FK_landing_id FOREIGN KEY ([landing_id])
-    REFERENCES [hurtownie].[dbo].[lab7_wymiar_LADOWANIA] ([landing_id]),
+    CONSTRAINT FK_takeoff_id FOREIGN KEY ([takeoff])
+    REFERENCES [hurtownie].[dbo].[lab7_wymiar_STARTY] ([takeoff]),
+    CONSTRAINT FK_landing_id FOREIGN KEY ([landing])
+    REFERENCES [hurtownie].[dbo].[lab7_wymiar_LADOWANIA] ([landing]),
 
     CONSTRAINT FK_src_airport_IATA FOREIGN KEY ([src_iata_code])
     REFERENCES [hurtownie].[dbo].[lab7_wymiar_LOTNISKA] ([airport_code_iata]),
